@@ -1,0 +1,1 @@
+# azureFunction-PrivateEndpointIntegration

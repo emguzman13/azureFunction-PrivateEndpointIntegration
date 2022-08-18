@@ -1,0 +1,40 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "functionStorageAccountName": {
+            "value": "snowflakefunct001"  
+        },
+        "vnetName": {
+            "value": "vnet-function"  
+        },
+        "functionSubnetName": {
+            "value": "snet-func"  
+        },
+        "privateEndpointSubnetName": {
+            "value": "snet-pe"  
+        },
+        "vnetAddressPrefix": {
+            "value": "10.100.0.0/16"  
+        },
+        "functionSubnetAddressPrefix": {
+            "value": "10.100.0.0/24"  
+        },
+        "privateEndpointSubnetAddressPrefix": {
+            "value": "10.100.1.0/24"  
+        },
+        "functionAppName": {
+            "value": "func-ega-py"  
+        },
+        "functionAppPlanName": {
+            "value": "plan-func-py"  
+        },
+        "functionPlanOS": {
+            "value": "Linux"  
+        },
+        "functionAppPlanSku": {
+            "value": "EP1"  
+        }
+
+    }
+  }

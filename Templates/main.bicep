@@ -463,7 +463,7 @@ resource functionApp 'Microsoft.Web/sites@2021-01-01' = {
         }
         {
           name: 'FUNCTIONS_EXTENSION_VERSION'
-          value: '~4'
+          value: '~3'
         }
         {
           name: 'FUNCTIONS_WORKER_RUNTIME'

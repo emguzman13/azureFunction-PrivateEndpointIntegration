@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "functionStorageAccountName": {
-            "value": "snowflakefunct001"  
+            "value": "snowflakeega001"  
         },
         "vnetName": {
             "value": "vnet-function"  
@@ -24,7 +24,7 @@
             "value": "10.100.1.0/24"  
         },
         "functionAppName": {
-            "value": "func-ega-py"  
+            "value": "func-ega-snow-py"  
         },
         "functionAppPlanName": {
             "value": "plan-func-py"  
